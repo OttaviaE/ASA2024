@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  29 AUG 2024 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  29 AUG 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1220,14 +1220,75 @@ Overfull \vbox (15.63992pt too high) detected at line 14
 
 [1
 
-{C:/Users/ottae/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+{C:/Users/ottae/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<img/FISPPA_logo.png, id=20, 344.28625pt x 141.52875pt>
+File: img/FISPPA_logo.png Graphic file (type png)
+<use img/FISPPA_logo.png>
+Package pdftex.def Info: img/FISPPA_logo.png  used on input line 34.
+(pdftex.def)             Requested size: 92.1879pt x 37.89581pt.
+<img/ISTC_logo.jpg, id=22, 306.4248pt x 327.624pt>
+File: img/ISTC_logo.jpg Graphic file (type jpg)
+<use img/ISTC_logo.jpg>
+Package pdftex.def Info: img/ISTC_logo.jpg  used on input line 34.
+(pdftex.def)             Requested size: 30.73085pt x 32.8543pt.
+<img/logoUnipd.jpg, id=23, 377.4903pt x 375.3222pt>
+File: img/logoUnipd.jpg Graphic file (type jpg)
+<use img/logoUnipd.jpg>
+Package pdftex.def Info: img/logoUnipd.jpg  used on input line 34.
+(pdftex.def)             Requested size: 46.0916pt x 45.8213pt.
 
-]
+Overfull \vbox (0.96643pt too high) detected at line 34
+ []
+
+[2
+
+ <./img/FISPPA_logo.png> <./img/ISTC_logo.jpg> <./img/logoUnipd.jpg>]
+<img/IMATI_logo.png, id=32, 178.9887pt x 49.1436pt>
+File: img/IMATI_logo.png Graphic file (type png)
+<use img/IMATI_logo.png>
+Package pdftex.def Info: img/IMATI_logo.png  used on input line 57.
+(pdftex.def)             Requested size: 92.1879pt x 25.31184pt.
+<img/dpg.png, id=33, 258.21469pt x 110.66344pt>
+File: img/dpg.png Graphic file (type png)
+<use img/dpg.png>
+Package pdftex.def Info: img/dpg.png  used on input line 57.
+(pdftex.def)             Requested size: 92.1879pt x 39.50952pt.
+File: img/logoUnipd.jpg Graphic file (type jpg)
+<use img/logoUnipd.jpg>
+Package pdftex.def Info: img/logoUnipd.jpg  used on input line 57.
+(pdftex.def)             Requested size: 46.0916pt x 45.8213pt.
+
+Overfull \vbox (0.96643pt too high) detected at line 57
+ []
+
 [3
 
-] [4
+ <./img/IMATI_logo.png> <./img/dpg.png>]
+<img/unitn.png, id=41, 153.57375pt x 144.54pt>
+File: img/unitn.png Graphic file (type png)
+<use img/unitn.png>
+Package pdftex.def Info: img/unitn.png  used on input line 83.
+(pdftex.def)             Requested size: 30.73085pt x 28.92291pt.
+<img/psicostat.jpg, id=42, 642.4pt x 642.4pt>
+File: img/psicostat.jpg Graphic file (type jpg)
+<use img/psicostat.jpg>
+Package pdftex.def Info: img/psicostat.jpg  used on input line 83.
+(pdftex.def)             Requested size: 30.73085pt x 30.72997pt.
+File: img/FISPPA_logo.png Graphic file (type png)
+<use img/FISPPA_logo.png>
+Package pdftex.def Info: img/FISPPA_logo.png  used on input line 83.
+(pdftex.def)             Requested size: 92.1879pt x 37.89581pt.
+File: img/logoUnipd.jpg Graphic file (type jpg)
+<use img/logoUnipd.jpg>
+Package pdftex.def Info: img/logoUnipd.jpg  used on input line 83.
+(pdftex.def)             Requested size: 46.0916pt x 45.8213pt.
 
-]
+Overfull \vbox (17.98633pt too high) detected at line 83
+ []
+
+[4
+
+ <./img/unitn.png> <./img/psicostat.jpg>]
 \tf@nav=\write6
 \openout6 = `contributed-session-asa2024.nav'.
 
@@ -1247,10 +1308,10 @@ nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24888 strings out of 474586
- 506024 string characters out of 5745680
- 1929558 words of memory out of 5000000
- 46557 multiletter control sequences out of 15000+600000
+ 24965 strings out of 474586
+ 507824 string characters out of 5745680
+ 1931558 words of memory out of 5000000
+ 46634 multiletter control sequences out of 15000+600000
  570096 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,1896b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1259,9 +1320,9 @@ cmss10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on contributed-session-asa2024.pdf (4 pages, 57209 bytes).
+Output written on contributed-session-asa2024.pdf (4 pages, 3045335 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
