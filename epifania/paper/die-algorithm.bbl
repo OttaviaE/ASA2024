@@ -1,0 +1,89 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Birnbaum%
+}{%
+Birnbaum%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+birnbaum1968}
+\APACinsertmetastar {%
+birnbaum1968}%
+\begin{APACrefauthors}%
+Birnbaum, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Some latent trait models and their use in inferring an
+  examinee's ability} {Some latent trait models and their use in inferring an
+  examinee's ability}.{\BBCQ}
+\newblock
+\BIn{} F\BPBI M.~Lord\ \BBA {} R.~Novick\ (\BEDS), \APACrefbtitle {Statistical
+  theories of mental test scores.} {Statistical theories of mental test
+  scores.}
+\newblock
+\APACaddressPublisher{Reading:MA}{Addison-Wesley Publishing}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Epifania%
+, Anselmi%
+\BCBL {}\ \BBA {} Robusto%
+}{%
+Epifania%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+pauci}
+\APACinsertmetastar {%
+pauci}%
+\begin{APACrefauthors}%
+Epifania, O\BPBI M.%
+, Anselmi, P.%
+\BCBL {}\ \BBA {} Robusto, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pauci sed boni: An Item Response Theory Approach for
+  Shortening Tests} {Pauci sed boni: An item response theory approach for
+  shortening tests}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {The Annual Meeting of the Psychometric Society} {The
+  annual meeting of the psychometric society}\ (\BPGS\ 75--83).
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1007/978-3-031-27781-8_7}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{R Core Team}%
+}{%
+{R Core Team}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+rsoft}
+\APACinsertmetastar {%
+rsoft}%
+\begin{APACrefauthors}%
+{R Core Team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {R: A Language and Environment for Statistical Computing}
+  {R: A language and environment for statistical computing}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\APACaddressPublisher{Vienna, Austria}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.R-project.org/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
