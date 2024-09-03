@@ -46,18 +46,30 @@
 \headcommand {\sectionentry {4}{Simulation Study}{14}{Simulation Study}{0}}
 \headcommand {\slideentry {4}{0}{1}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {4}{0}{2}{15/15}{}{0}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{15}{Simulation design}}
+\headcommand {\slideentry {4}{1}{1}{15/15}{Simulation design}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{16}{Results}}
-\headcommand {\slideentry {4}{1}{1}{16/16}{Results}{0}}
+\headcommand {\slideentry {4}{1}{2}{16/16}{Simulation design}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {4}{1}{2}{17/17}{Results}{0}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{17}{Comparison}}
+\headcommand {\slideentry {4}{2}{1}{17/17}{Comparison}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {4}{1}{3}{18/18}{Results}{0}}
+\headcommand {\slideentry {4}{2}{2}{18/18}{Comparison}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@partpages {1}{18}}
-\headcommand {\beamer@subsectionpages {16}{18}}
-\headcommand {\beamer@sectionpages {14}{18}}
-\headcommand {\beamer@documentpages {18}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{19}{Results}}
+\headcommand {\slideentry {4}{3}{1}{19/19}{Results}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {4}{3}{2}{20/20}{Results}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {4}{3}{3}{21/21}{Results}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {4}{3}{4}{22/22}{Results}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {19}{22}}
+\headcommand {\beamer@sectionpages {14}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {22}}

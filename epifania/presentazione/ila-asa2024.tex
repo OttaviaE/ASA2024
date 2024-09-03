@@ -241,12 +241,13 @@ The algorithm iterates the following steps until the termination criterion is re
 
 \section{Simulation Study}
 
+\subsection{Simulation design}
 \begin{frame}
 	
 100 iterations: 
 
 \begin{enumerate}
-	\item  Generate and item bank of $N = 6$ items: 
+	\item  Generate an item bank of $N = 6$ items: 
 	\begin{itemize}
 		\item Difficulty parameters: $\mathcal{U}(-3, 3)$
 		\item Discrimination parameters:  $\mathcal{U}(.90, 2.0)$
@@ -264,14 +265,26 @@ The algorithm iterates the following steps until the termination criterion is re
 \end{enumerate}
 \end{frame}
 
+\subsection{Comparison}
+
+\begin{frame}
+	\begin{itemize}
+		\item $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}||$ 
+		\item Percentile rank of the distance between the STF selected by BFP and that selected by ILA
+	\end{itemize}
+\end{frame}
+
+
 \subsection{Results}
 
 
 
 \begin{frame}
+	57\% $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| = 0$  $\rightarrow$ 72\% same item selection
 	\begin{figure}
 		\centering
 		\includegraphics[width=.80\linewidth]{img/bfp-ila}
+		\caption{43\% $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| \neq 0$ }
 	\end{figure}
 \end{frame}
 
@@ -280,6 +293,37 @@ The algorithm iterates the following steps until the termination criterion is re
 		\centering
 		\includegraphics[width=\linewidth]{img/rp}
 	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{columns}[T]
+		\begin{column}{.50\linewidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=.\linewidth]{img/equalClose.pdf}
+				\caption{Equal-Close}
+			\end{figure}
+	
+				\begin{figure}
+				\centering
+				\includegraphics[width=.\linewidth]{img/moreClose}
+				\caption{More-Close}
+			\end{figure}
+		\end{column}
+			\begin{column}{.50\linewidth}
+				\begin{figure}
+				\centering
+				\includegraphics[width=.\linewidth]{img/lessClose}
+				\caption{Less-Close}
+			\end{figure}
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width=.\linewidth]{img/lessFar}
+				\caption{Less-Far}
+			\end{figure}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \end{document}

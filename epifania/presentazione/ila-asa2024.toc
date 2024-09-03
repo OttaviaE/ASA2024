@@ -8,4 +8,6 @@
 \beamer@subsectionintoc {3}{1}{Item Locating Algorithm -- ILA}{10}{0}{3}
 \beamer@subsectionintoc {3}{2}{Brute Force Procedure}{12}{0}{3}
 \beamer@sectionintoc {4}{Simulation Study}{14}{0}{4}
-\beamer@subsectionintoc {4}{1}{Results}{16}{0}{4}
+\beamer@subsectionintoc {4}{1}{Simulation design}{15}{0}{4}
+\beamer@subsectionintoc {4}{2}{Comparison}{17}{0}{4}
+\beamer@subsectionintoc {4}{3}{Results}{19}{0}{4}
