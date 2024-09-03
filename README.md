@@ -9,5 +9,5 @@ The session will be held on September 19, 2024 in Room 1 (Gini) at 4:00pm. The f
 ## Contributions: 
  - *Design of a test for assessing teamwork and collaborative skills with Competence-based Knowledge Space Theory*, Federica Morleo, Alessandra Vitanza e Pasquale Anselmi 
 - *An R Package for Adaptive Assessment Utilizing Knowledge Space Theory and Formal Psychological Assessment*, Andrea Brancaccio e Umberto Granziol 
-- *Test length doesn't matter, it's how you use the items that counts: An intelligent procedure for item selection in Item Response Theory*, Ottavia M. Epifania, Pasquale Anselmi, Egidio Robusto
+- [*Test length doesn't matter, it's how you use the items that counts: An intelligent procedure for item selection in Item Response Theory*](/epifania/presentazione/ila-asa2024.pdf), Ottavia M. Epifania, Pasquale Anselmi, Egidio Robusto
  
