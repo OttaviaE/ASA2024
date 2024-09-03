@@ -202,7 +202,7 @@ $\mathit{TIF}^*$: TIF target
 
 $TIF_{TE} = \frac{\sum_{i\in Q} IIF_i}{||Q||}$, where $||Q||$ denotes the cardinality of $Q$ 
 
-Termination criterion:
+\color{blue} Termination criterion: \normalcolor
 
 The algorithm iterates the following steps until the termination criterion is reached: 
 	\begin{enumerate}
@@ -212,7 +212,7 @@ The algorithm iterates the following steps until the termination criterion is re
 		$\theta_{target} =\argmax{\Delta_{TIF}}$ %At the first iteration, it will be the $\theta$ level with the highest information function. 
 		
 		\item  %The index of the first item to be included in $Q$ is the index of the item whose location is closest to the $\theta_{target}$, 
-		$\text{argmin}_{i \in \{1, \ldots, N\}\setminus Q} |\theta_{target} -b_i|$.
+	\color{blue}	$\text{argmin}_{i \in \{1, \ldots, N\}\setminus Q} |\theta_{target} -b_i|$ \normalcolor
 		
 		\item  $TIF_{TE} = \frac{\sum_{i\in Q} IIF_i}{||Q||}$
 		
@@ -224,11 +224,18 @@ The algorithm iterates the following steps until the termination criterion is re
 \begin{frame}
 	$N$: Number of items in the item bank 
 	
-	$L = N-1$: Maximum length of the STFs that can developed from the item bank composed of $N$ items
+	$L = N-1$: Maximum length of the STFs that can developed from the item bank 
 	
- For each of the possible lengths $l = \{1, \ldots L\}$ of the STF, a $\binom{N}{l}$ number of STFs is developed. 
+	$\binom{N}{l}$: number of STFs resulting from the combination of the $l = \{1, \ldots L\}$ items 
 	
-	For each of the possible combinations of items of length $l$,  the $\overline{\mathit{TIF}}$ is computed, and the absolute difference from the TIF target, $\Delta_{TIF} = TIF^* - \overline{\mathit{TIF}}$, and a mean of the absolute difference are obtained $\overline{\Delta}_{TIF}$.
+ The algorithm iterates the following steps until the termination criterion is reached: 
+ 
+ \begin{enumerate}
+ 	\item $\overline{\mathit{TIF}}$ for each STF of length $l$
+ 	\item $\Delta_{TIF} = TIF^* - \overline{\mathit{TIF}}$
+ 	\item $\overline{\Delta}_{TIF}$
+ \end{enumerate}
+	
 	The best STF is the one with the lowest value of $\overline{\Delta}_{TIF}$, that is the one that presents the lowest absolute distance from the TIF target.
 \end{frame}
 
@@ -236,8 +243,43 @@ The algorithm iterates the following steps until the termination criterion is re
 
 \begin{frame}
 	
+100 iterations: 
+
+\begin{enumerate}
+	\item  Generate and item bank of $N = 6$ items: 
+	\begin{itemize}
+		\item Difficulty parameters: $\mathcal{U}(-3, 3)$
+		\item Discrimination parameters:  $\mathcal{U}(.90, 2.0)$
+	\end{itemize} 
+	
+	\item  Generate $TIF^*$ by randomly selecting items from the item bank (Mean number of items $= 3.34 \pm 1.13$). The parameters of the selected items are modified according to values drawn from uniform distributions $\mathcal{U}(-0.20, 0.20)$. 
+	
+	
+	\item  Considering the $TIF^*$ at Step 2 and the item parameters at Step 1:
+	\begin{itemize}
+		\item ILA $\rightarrow$ Forwardly searches for the best item selection to recover the $TIF^*$
+		\item BFP $\rightarrow$ tries every possible item combination to find the STF best able to recover $TIF^*$ $N=6$ items, $L = 5$ and $\binom{6}{1} + \binom{6}{2} + \binom{6}{3} + \binom{6}{4} + \binom{6}{5} =  62$ STFs are developed and compared.
+	\end{itemize}
+	
+\end{enumerate}
 \end{frame}
 
 \subsection{Results}
+
+
+
+\begin{frame}
+	\begin{figure}
+		\centering
+		\includegraphics[width=.80\linewidth]{img/bfp-ila}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{img/rp}
+	\end{figure}
+\end{frame}
 
 \end{document}
