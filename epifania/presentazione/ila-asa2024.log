@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  6 SEP 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  6 SEP 2024 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,10 +1234,10 @@ Package pdftex.def Info: img/TIF-2pl.pdf  used on input line 190.
 <img/bfp-ila.pdf, id=873, 1011.78pt x 614.295pt>
 File: img/bfp-ila.pdf Graphic file (type pdf)
 <use img/bfp-ila.pdf>
-Package pdftex.def Info: img/bfp-ila.pdf  used on input line 289.
+Package pdftex.def Info: img/bfp-ila.pdf  used on input line 291.
 (pdftex.def)             Requested size: 284.52866pt x 172.75128pt.
 
-Overfull \vbox (10.20749pt too high) detected at line 289
+Overfull \vbox (10.20749pt too high) detected at line 291
  []
 
 [20
@@ -1246,10 +1246,10 @@ Overfull \vbox (10.20749pt too high) detected at line 289
 <img/rp.pdf, id=923, 1011.78pt x 614.295pt>
 File: img/rp.pdf Graphic file (type pdf)
 <use img/rp.pdf>
-Package pdftex.def Info: img/rp.pdf  used on input line 296.
+Package pdftex.def Info: img/rp.pdf  used on input line 298.
 (pdftex.def)             Requested size: 355.65947pt x 215.93443pt.
 
-Overfull \vbox (6.95314pt too high) detected at line 296
+Overfull \vbox (6.95314pt too high) detected at line 298
  []
 
 [21
@@ -1258,23 +1258,23 @@ Overfull \vbox (6.95314pt too high) detected at line 296
 <img/equalClose.pdf, id=972, 1011.78pt x 614.295pt>
 File: img/equalClose.pdf Graphic file (type pdf)
 <use img/equalClose.pdf>
-Package pdftex.def Info: img/equalClose.pdf  used on input line 327.
-(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+Package pdftex.def Info: img/equalClose.pdf  used on input line 336.
+(pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/moreClose.pdf, id=973, 1011.78pt x 614.295pt>
 File: img/moreClose.pdf Graphic file (type pdf)
 <use img/moreClose.pdf>
-Package pdftex.def Info: img/moreClose.pdf  used on input line 327.
-(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+Package pdftex.def Info: img/moreClose.pdf  used on input line 336.
+(pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessClose.pdf, id=974, 1011.78pt x 614.295pt>
 File: img/lessClose.pdf Graphic file (type pdf)
 <use img/lessClose.pdf>
-Package pdftex.def Info: img/lessClose.pdf  used on input line 327.
-(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+Package pdftex.def Info: img/lessClose.pdf  used on input line 336.
+(pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessFar.pdf, id=975, 1011.78pt x 614.295pt>
 File: img/lessFar.pdf Graphic file (type pdf)
 <use img/lessFar.pdf>
-Package pdftex.def Info: img/lessFar.pdf  used on input line 327.
-(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+Package pdftex.def Info: img/lessFar.pdf  used on input line 336.
+(pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
  [22
 
  <./img/equalClose.pdf> <./img/moreClose.pdf
@@ -1308,11 +1308,11 @@ Package rerunfilecheck Info: File `ila-asa2024.out' has not changed.
 (rerunfilecheck)             Checksum: E5FA3BE54C7243E4D961CABCDAC5432C;1819.
  ) 
 Here is how much of TeX's memory you used:
- 27480 strings out of 474586
- 556504 string characters out of 5745680
+ 27486 strings out of 474586
+ 556509 string characters out of 5745680
  1941558 words of memory out of 5000000
- 49045 multiletter control sequences out of 15000+600000
- 568320 words of font info for 74 fonts, out of 8000000 for 9000
+ 49046 multiletter control sequences out of 15000+600000
+ 570210 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,410b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1323,20 +1323,24 @@ blic/amsfonts/cm/cmex10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ottae/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ottae/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ott
-ae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+ae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/U
+sers/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ottae/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ottae/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ottae/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ila-asa2024.pdf (22 pages, 915135 bytes).
+/cmr12.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ottae/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ottae/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ottae/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ottae
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
+rs/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mti10.pfb>
+Output written on ila-asa2024.pdf (22 pages, 943007 bytes).
 PDF statistics:
- 1143 PDF objects out of 1200 (max. 8388607)
+ 1158 PDF objects out of 1200 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

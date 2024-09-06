@@ -196,27 +196,29 @@
 \subsection{Item Locating Algorithm -- ILA}
 \begin{frame}
 	
-$Q$: vector of the item indexes selected for inclusion in the STF up to that iteration
+$Q^k$: vector of the item indexes selected for inclusion in the STF up to iteration $k$ ($Q^0 = \emptyset$)
 	
 $\mathit{TIF}^*$: TIF target 
 
-$TIF_{TE} = \frac{\sum_{i\in Q} IIF_i}{||Q||}$, where $||Q||$ denotes the cardinality of $Q$ 
+%$TIF^k = \frac{\sum_{i\in Q^k} IIF_i}{||Q^k||}$, where $||Q^k||$ denotes the cardinality of $Q^k$, 
+$TIF^0 = 0$ 
 
-\color{blue} Termination criterion: \normalcolor
+\color{blue} Termination criterion: $|TIF^* - TIF^k| \leq |TIF^* - TIF^{k-1}|$ \normalcolor
 
-The algorithm iterates the following steps until the termination criterion is reached: 
+Iterate: 
 	\begin{enumerate}
-		\item  $\Delta_{TIF} = |TIF^* - TIF_{\text{TE}}|$. %Since at the beginning no items are selected for inclusion in the STF, $Q = \emptyset$ and $||Q|| =0$, so $\Delta_{TIF} = |TIF^* - 0|$. 
+		%\item  $\Delta_{TIF}^k = |TIF^* - TIF^k|$ %Since at the beginning no items are selected for inclusion in the STF, $Q = \emptyset$ and $||Q|| =0$, so $\Delta_{TIF} = |TIF^* - 0|$. 
 		
 		\item  %A $\theta_{target}$ is determined as the $\theta$ level for which the absolute distance between the $\mathit{TIF}^*$ and $\mathit{TIF}_{TE}$ is maximum, 
-		$\theta_{target} =\argmax{\Delta_{TIF}}$ %At the first iteration, it will be the $\theta$ level with the highest information function. 
+		$\theta_{target} =\argmax{|TIF^* - TIF^{k-1}|}$ %At the first iteration, it will be the $\theta$ level with the highest information function. 
 		
 		\item  %The index of the first item to be included in $Q$ is the index of the item whose location is closest to the $\theta_{target}$, 
-	\color{blue}	$\text{argmin}_{i \in \{1, \ldots, N\}\setminus Q} |\theta_{target} -b_i|$ \normalcolor
+	\color{blue}	$Q^{k} = Q^{k-1} \cup \argmin_{i \in \{1, \ldots, N\}\setminus Q^{k-1}} |\theta_{target} -b_i|$ \normalcolor
 		
-		\item  $TIF_{TE} = \frac{\sum_{i\in Q} IIF_i}{||Q||}$
+		\item  $TIF^{k} = \frac{\sum_{i\in Q^k} IIF_i}{||Q^k||}$
 		
-		\item  Repeat from Step 1 until the termination criterion is reached
+		\item $k =  k +1$ 
+		
 	\end{enumerate}
 \end{frame}
 
@@ -295,35 +297,44 @@ The algorithm iterates the following steps until the termination criterion is re
 	\end{figure}
 \end{frame}
 
+
 \begin{frame}
-	\begin{columns}[T]
-		\begin{column}{.50\linewidth}
-			\begin{figure}
-				\centering
-				\includegraphics[width=.\linewidth]{img/equalClose.pdf}
-				\caption{Equal-Close}
-			\end{figure}
 	
-				\begin{figure}
+	\begin{columns}[T]
+	\begin{column}{.50\linewidth}
+
+	\centering
+		\footnotesize{$||Q_{\text{BFP}}|| = ||Q_{\text{ILA}}||$, $Q_{\text{BFP}} \neq Q_{\text{ILA}}$}
+	
+	\includegraphics[width=.80\linewidth]{img/equalClose.pdf}	
+
+
+\centering
+\footnotesize{$||Q_{\text{BFP}}|| < ||Q_{\text{ILA}}||$}
+\includegraphics[width=.80\linewidth]{img/moreClose.pdf}	
+
+
+
+	\end{column}
+	
+		\begin{column}{.50\linewidth}
+		
+		\centering
+				\footnotesize{$||Q_{\text{BFP}}|| > ||Q_{\text{ILA}}||$}
+		\includegraphics[width=.80\linewidth]{img/lessClose.pdf}	
+
+		
 				\centering
-				\includegraphics[width=.\linewidth]{img/moreClose}
-				\caption{More-Close}
-			\end{figure}
-		\end{column}
-			\begin{column}{.50\linewidth}
-				\begin{figure}
-				\centering
-				\includegraphics[width=.\linewidth]{img/lessClose}
-				\caption{Less-Close}
-			\end{figure}
-			
-			\begin{figure}
-				\centering
-				\includegraphics[width=.\linewidth]{img/lessFar}
-				\caption{Less-Far}
-			\end{figure}
-		\end{column}
+						\footnotesize{$||Q_{\text{BFP}}|| < ||Q_{\text{ILA}}||$}
+		\includegraphics[width=.80\linewidth]{img/lessFar.pdf}	
+
+		
+	\end{column}
 	\end{columns}
+	
+
 \end{frame}
+
+
 
 \end{document}
