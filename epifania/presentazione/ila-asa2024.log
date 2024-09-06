@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  3 SEP 2024 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  6 SEP 2024 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,18 +807,13 @@ LaTeX Info: Redefining \textlatin on input line 3953.
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
-df
-Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
-\it@lettering=\count338
-\it@doublequoteactive=\count339
-\it@ISOcompliance=\count340
+Package babel Info: You haven't specified a language as a class or package
+(babel)             option. I'll load 'nil'. Reported on input line 4301.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/babel\nil.ldf
+Language: nil 2023/11/11 v3.97 Nil language
+\l@nil=\language80
 ))
-(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel
--italian.tex
-Package babel Info: Importing font and identification data for italian
-(babel)             from babel-it.ini. Reported on input line 11.
-)
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks48
@@ -831,7 +826,7 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen299
 \TX@target=\dimen300
 \TX@delta=\dimen301
-\TX@cols=\count341
+\TX@cols=\count338
 \TX@ftn=\toks50
 )
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
@@ -875,7 +870,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count342
+\pgf@plot@mark@count=\count339
 \pgfplotmarksize=\dimen306
 )
 \tikz@lastx=\dimen307
@@ -890,19 +885,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
 
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count347
 
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -926,14 +921,14 @@ Grid set 16 x 16 = 24.89615pt x 16.00467pt
 TextBlockOrigin set to 0pt x 0pt
 ) (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count351
+\c@tracingmulticols=\count348
 \mult@box=\box85
 \multicol@leftmargin=\dimen322
-\c@unbalance=\count352
-\c@collectmore=\count353
-\doublecol@number=\count354
-\multicoltolerance=\count355
-\multicolpretolerance=\count356
+\c@unbalance=\count349
+\c@collectmore=\count350
+\doublecol@number=\count351
+\multicoltolerance=\count352
+\multicolpretolerance=\count353
 \full@width=\dimen323
 \page@free=\dimen324
 \premulticols=\dimen325
@@ -984,15 +979,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box126
 \@tempa=\box127
 \@tempa=\box128
-\c@minrows=\count357
-\c@columnbadness=\count358
-\c@finalcolumnbadness=\count359
+\c@minrows=\count354
+\c@columnbadness=\count355
+\c@finalcolumnbadness=\count356
 \last@try=\dimen328
 \multicolovershoot=\dimen329
 \multicolundershoot=\dimen330
 \mult@nat@firstbox=\box129
 \colbreak@box=\box130
-\mc@col@check@num=\count360
+\mc@col@check@num=\count357
 )
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.geometric.code.tex
@@ -1051,7 +1046,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count361
+\l__color_backend_stack_int=\count358
 \l__pdf_internal_box=\box131
 ) (ila-asa2024.aux)
 \openout1 = `ila-asa2024.aux'.
@@ -1113,16 +1108,16 @@ LaTeX Font Info:    ... okay on input line 139.
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count362
+\scratchcounter=\count359
 \scratchdimen=\dimen332
 \scratchbox=\box132
-\nofMPsegments=\count363
-\nofMParguments=\count364
+\nofMPsegments=\count360
+\nofMParguments=\count361
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count365
+\MPscratchCnt=\count362
 \MPscratchDim=\dimen333
-\MPnumerator=\count366
-\makeMPintoPDFobject=\count367
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
 \everyMPtoPDFconversion=\toks55
 )
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1164,19 +1159,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-LaTeX Info: Redefining \it@ocap on input line 139.
-LaTeX Info: Redefining \it@ccap on input line 139.
-
-
-File italian.ldf warning: 
-italian.ldf    With OT1 encoding guillemets are poorly faked
-italian.ldf    Use T1 encoding
-italian.ldf    or specify a font with command \CaporaliFrom
-italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 139.
-
-(ila-asa2024.nav)
+) (ila-asa2024.nav)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 142
 .
 
@@ -1325,13 +1308,13 @@ Package rerunfilecheck Info: File `ila-asa2024.out' has not changed.
 (rerunfilecheck)             Checksum: E5FA3BE54C7243E4D961CABCDAC5432C;1819.
  ) 
 Here is how much of TeX's memory you used:
- 27579 strings out of 474586
- 558549 string characters out of 5745680
+ 27480 strings out of 474586
+ 556504 string characters out of 5745680
  1941558 words of memory out of 5000000
- 49138 multiletter control sequences out of 15000+600000
+ 49045 multiletter control sequences out of 15000+600000
  568320 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,410b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,410b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx8.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1351,7 +1334,7 @@ fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ottae/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ottae/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ottae/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ila-asa2024.pdf (22 pages, 915136 bytes).
+Output written on ila-asa2024.pdf (22 pages, 915135 bytes).
 PDF statistics:
  1143 PDF objects out of 1200 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
