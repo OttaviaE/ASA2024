@@ -30,3 +30,15 @@ In general, this R package and Shiny interface present a powerful and flexible t
 **[Ottavia M. Epifania](https://ottaviae.github.io/presentations/)**, Pasquale Anselmi, Egidio Robusto
  
 Item Response Theory (IRT) provides the ideal framework for generating short test forms (STFs) from item banks or from full-length tests thanks to the possibility of obtaining detailed information on the precision with which each item measures the latent trait. As such, the most precise items can be selected for inclusion in the STF and the number of items can be minimized while the measurement precision can be maximized. The usual procedure for developing STFs is based on the visual inspection of the item and test information functions (IIFs and TIFs) to find the items that best contribute to make up a STF with the desired characteristics. This contribution presents a new procedure that aims at automating this process by defining a target TIF and finding the items from the item bank that best recover it. The algorithm directly compares the distance between the target TIF and a temporary TIF obtained by adding an item at a time. The items are chosen according to their closeness to the location on the latent trait where the distance between the target and the temporary TIFs is maximized. The algorithm stops when the addition of a new item does not reduce the distance between target and temporary TIFs. The procedure can be applied both when the length of the STF is defined a priori and when the aim is to find the optimal number of items. The results of the application of this procedure are presented. 
+
+## The speakers
+
+### Federica Morleo 
+
+Fedrica is a PhD Student in Social Sciences, curriculum Applied Psychology at the University of Padova, associated with the National Research Council. Her current research interests are focused on the development of new pedagogical approaches, based on the use of educational robotics and emerging technologies.
+
+### Andrea Brancaccio
+
+### Ottavia M. Epifania
+
+Ottavia is a tenure-track researcher at the University of Trento. Her research focuses primarily on Item Response Theory models and their use to improve and shorten tests and questionnaires used in research and clinical settings
