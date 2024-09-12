@@ -140,14 +140,14 @@
 	\includegraphics[width=1.8cm,height=1.8cm,keepaspectratio]{img/logoUnipd.jpg}%
 }
 
-\author{ \vspace{-5mm} Ottavia M. Epifiania\textsuperscript{1}, Pasquale Anselmi\textsuperscript{3}, Egidio Robusto\textsuperscript{3}}
+\author{ \vspace{-5mm} Ottavia M. Epifiania\textsuperscript{1,2}, Pasquale Anselmi\textsuperscript{3}, Egidio Robusto\textsuperscript{3}}
 
 
 \institute [UniPd] {
 	%\includegraphics[width=10mm]{unipd.png}\\ 
 	\textsuperscript{1} Psychology and Cognitive Science Department, University of Trento, Italy \\
 	\textsuperscript{2} Psicostat, University of Padova, Italy \\
-	\textsuperscript{3} Department of Philosophy, Sociology, Education, and Applied Pscyhology,	University of Padova, Italy}
+	\textsuperscript{3} Department of Philosophy, Sociology, Education, and Applied Psychology,	University of Padova, Italy}
 
 \date [ASA2024] {%\vspace{0.6cm}\\
 	Convegno ASA 2024, Contributed session: \\ Developing, administering and refining measurement instruments in Social Sciences}
@@ -172,7 +172,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 	
 	\onslide<1->
 		\textbf{Automated (new) procedure:}
- A priori defintion of latent trait levels of interest on which the STF should be focusing the most
+ A priori definition of latent trait levels of interest on which the STF should be focusing the most
 	
 	\onslide<3->
 \textbf{\textcolor{unipd}{Issue}}
@@ -222,7 +222,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 	\end{column}
 	\begin{column}{.5\linewidth}
 		\centering
-		Test Information Function (TIF):	\\	$I(\theta) =  \sum_{i = 1}^{I} I_i(\theta)$
+		Test Information Function (TIF):	\\	$I(\theta) =  \sum_{i = 1}^{N} I_i(\theta)$
 	
 	\includegraphics[width=\linewidth]{img/TIF-2pl.pdf}
 	
@@ -333,6 +333,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 		
 		\begin{column}{.55\linewidth}
 			\small 
+			\centering
 			\textbf{ILA Algorithm:} 
 			\scalebox{.5}{
 			\begin{tikzpicture}[node distance=2cm]
@@ -428,11 +429,11 @@ Manually inspecting the item characteristics to recreate the desired characteris
 \subsection*{$||Q_{BFP}||$ vs. $||Q_{ILA}||$}
 
 \begin{frame}
-	57\% $\rightarrow$ $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| = 0$ % $\rightarrow$ 72\% same item selection
+ $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| = 0$ in 57\% of cases % $\rightarrow$ 72\% same item selection
 	\begin{figure}
 		\centering
 		\includegraphics[width=.80\linewidth]{img/bfp-ila}
-		\caption{43\% $\rightarrow$ $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| \neq 0$ }
+		%\caption{43\% $\rightarrow$ $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}|| \neq 0$ }
 	\end{figure}
 \end{frame}
 
@@ -488,21 +489,21 @@ Manually inspecting the item characteristics to recreate the desired characteris
 
 \begin{frame}
 	
-	\begin{exampleblock}{\color{myGreen}\textbf{Pros}}
+	\begin{exampleblock}{\color{myGreen}\textbf{Pros of ILA}}
 		
 			\begin{itemize}
-			\item ILA selects items that are able to recreate the desired characteristics of a test (usually)
+			\item It selects items that are able to recreate the desired characteristics of a test (usually)
 			\item It is computationally ``Light'' 
 		\end{itemize}
 		
 	\end{exampleblock}
 	
-	\begin{alertblock}{\color{unipd}Cons}
+	\begin{alertblock}{\color{unipd}Cons of ILA}
 		
 		\begin{itemize}
-			\item ILA grounds its selection on a single $\theta_{target}$ $\rightarrow$ it might select items minimizing the distance on that target but that are useless for the test 
-			\item ILA only forwardly searches an item $\rightarrow$ once it is in, it can't get out
-			\item ILA does not account for the discrimination parameters of the items
+			\item It grounds its selection on a single $\theta_{target}$ at a time $\rightarrow$ it might select items minimizing the distance on that target but that are not very useful for the test 
+			\item It only forwardly searches an item $\rightarrow$ once it is in, it can't get out
+			\item It does not account for the discrimination parameters of the items
 		\end{itemize}
 	\end{alertblock}
 

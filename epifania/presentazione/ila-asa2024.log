@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  11 SEP 2024 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  12 SEP 2024 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1257,47 +1257,43 @@ Package pdftex.def Info: img/TIF-2pl.pdf  used on input line 232.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 428.
+(hyperref)                removing `subscript' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 428.
+(hyperref)                removing `subscript' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 429.
 
 <img/bfp-ila.pdf, id=897, 1011.78pt x 614.295pt>
 File: img/bfp-ila.pdf Graphic file (type pdf)
 <use img/bfp-ila.pdf>
-Package pdftex.def Info: img/bfp-ila.pdf  used on input line 437.
+Package pdftex.def Info: img/bfp-ila.pdf  used on input line 438.
 (pdftex.def)             Requested size: 284.52866pt x 172.75128pt.
-
-Overfull \vbox (10.20749pt too high) detected at line 437
- []
-
 [21
 
  <./img/bfp-ila.pdf>]
 <img/rp.pdf, id=948, 1011.78pt x 614.295pt>
 File: img/rp.pdf Graphic file (type pdf)
 <use img/rp.pdf>
-Package pdftex.def Info: img/rp.pdf  used on input line 446.
+Package pdftex.def Info: img/rp.pdf  used on input line 447.
 (pdftex.def)             Requested size: 355.65947pt x 215.93443pt.
 
-Overfull \vbox (6.95314pt too high) detected at line 446
+Overfull \vbox (6.95314pt too high) detected at line 447
  []
 
 [22
@@ -1306,22 +1302,22 @@ Overfull \vbox (6.95314pt too high) detected at line 446
 <img/equalClose.pdf, id=998, 1011.78pt x 614.295pt>
 File: img/equalClose.pdf Graphic file (type pdf)
 <use img/equalClose.pdf>
-Package pdftex.def Info: img/equalClose.pdf  used on input line 485.
+Package pdftex.def Info: img/equalClose.pdf  used on input line 486.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/moreClose.pdf, id=999, 1011.78pt x 614.295pt>
 File: img/moreClose.pdf Graphic file (type pdf)
 <use img/moreClose.pdf>
-Package pdftex.def Info: img/moreClose.pdf  used on input line 485.
+Package pdftex.def Info: img/moreClose.pdf  used on input line 486.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessClose.pdf, id=1000, 1011.78pt x 614.295pt>
 File: img/lessClose.pdf Graphic file (type pdf)
 <use img/lessClose.pdf>
-Package pdftex.def Info: img/lessClose.pdf  used on input line 485.
+Package pdftex.def Info: img/lessClose.pdf  used on input line 486.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessFar.pdf, id=1001, 1011.78pt x 614.295pt>
 File: img/lessFar.pdf Graphic file (type pdf)
 <use img/lessFar.pdf>
-Package pdftex.def Info: img/lessFar.pdf  used on input line 485.
+Package pdftex.def Info: img/lessFar.pdf  used on input line 486.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
  [23
 
@@ -1360,13 +1356,13 @@ Package rerunfilecheck Info: File `ila-asa2024.out' has not changed.
 (rerunfilecheck)             Checksum: 390FDC40C5719B0F1537B61DE16CCA89;2265.
  ) 
 Here is how much of TeX's memory you used:
- 27720 strings out of 474586
- 561804 string characters out of 5745680
+ 27697 strings out of 474586
+ 561296 string characters out of 5745680
  1941558 words of memory out of 5000000
- 49266 multiletter control sequences out of 15000+600000
+ 49243 multiletter control sequences out of 15000+600000
  572351 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,410b,1080s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,123p,410b,1082s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1396,7 +1392,7 @@ ublic/amsfonts/cm/cmsy6.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ottae/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/ottae/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ila-asa2024.pdf (25 pages, 1554090 bytes).
+Output written on ila-asa2024.pdf (25 pages, 1554865 bytes).
 PDF statistics:
  1292 PDF objects out of 1440 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)
