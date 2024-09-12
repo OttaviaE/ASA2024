@@ -1,7 +1,7 @@
 # Contributed session: Developing, administering and refining measurement instruments in Social Sciences
 Proponents: Ottavia M. Epifania, Pasquale Anselmi
 
-Chair & Discussante: Livio Finos
+Chair & Discussant: Livio Finos
 
 The need for valid and reliable measurement instruments in Social Sciences is well established, also for the sake of the replicability of the results. This contributed session presents three contributions where the development, administration, and refinement of measurement instruments in Social Sciences are tackled under different perspectives. Specifically, the first contribution is about the development and validation of a new measurement tool for assessing soft skills using Knowledge Space Theory (KST). The second contribution describes the advantages provided by KST for the efficient administration of a test in a computerized adaptive testing (CAT) instance. Finally, the last contribution focuses on a different perspective, namely Item Response Theory, and presents a new algorithm for the intelligent selection of items from an item bank for the development of short questionnaires with specific characteristics defined by test developers. A final discussion on the usefulness of these and related approaches for the social sciences conclude the contributed session. 
 
@@ -11,13 +11,13 @@ The session will be held on September 19, 2024 in Room 1 (Gini) at 4:00pm. The f
 
 ### *Design of a test for assessing teamwork and collaborative skills with Competence-based Knowledge Space Theory*
 
-**Federica Morleo**, Alessandra Vitanza e Pasquale Anselmi 
+**Federica Morleo**, Alessandra Vitanza, Pasquale Anselmi 
 
 A critical issue within the educational system is the availability of assessment tools capable of accurately describing the skills mastered by an individual and those that are not. Competence-based Knowledge Space Theory (CbKST) is a mathematical theory for the individual assessment of skills that aims to precisely identify the set of skills an individual possesses within a specific domain based on responses given to the items of a test. CbKST is an extension of Knowledge Space Theory (KST), in which the main difference refers to the latent variable considered. While KST focuses on the items an individual is capable of solving, CbKST emphasizes the skills mastered by the individual that allow him to solve these items. CbKST provides the theoretical framework for this work, which presents the development and validation of a tool for the assessment of teamwork and collaborative skills (e.g., effective communication, conflict resolution, action planning, performance monitoring, and feedback) in nursery and primary schoolteachers. The test was designed to offer an attractive user-experience on a web-based platform that simulates real-life situations, such as exchanging messages in a chat with colleagues or viewing students’ work. Data collected on a sample of more than one hundred teachers coming from public and private schools in Italy are analyzed and discussed.
 
 ### *An R Package for Adaptive Assessment Utilizing Knowledge Space Theory and Formal Psychological Assessment* 
 
-**Andrea Brancaccio** e Umberto Granziol 
+**Andrea Brancaccio**, Umberto Granziol 
 
 
 Adaptive assessment techniques are crucial in educational and psychological testing because of their ability to tailor evaluations to individual needs. This presentation introduces a novel R package, Adaptive Assessment Tool, which implements procedures from Knowledge Space Theory and Formal Psychological Assessment to perform adaptive assessments. The package is complemented by an R Shiny interface, which makes it accessible and user-friendly for practitioners.
@@ -39,6 +39,9 @@ Item Response Theory (IRT) provides the ideal framework for generating short tes
 Fedrica is a PhD Student in Social Sciences, curriculum Applied Psychology at the University of Padova, associated with the National Research Council. Her current research interests are focused on the development of new pedagogical approaches, based on the use of educational robotics and emerging technologies.
 
 ### Andrea Brancaccio
+
+Andrea is a researcher at the National Research Council, currently employed on the RAISE Liguria project. His research focuses on assessment and learning models for education and clinical settings.
+
 
 ### Ottavia M. Epifania
 
