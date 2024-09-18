@@ -9,7 +9,7 @@ The session will be held on September 19, 2024 in Room 1 (Gini) at 4:00pm. The f
 
 ## Contributions: 
 
-### *Design of a test for assessing teamwork and collaborative skills with Competence-based Knowledge Space Theory*
+### [*Design of a test for assessing teamwork and collaborative skills with Competence-based Knowledge Space Theory*](/morleo/morleo-asa.pdf)
 
 **Federica Morleo**, Alessandra Vitanza, Pasquale Anselmi 
 
