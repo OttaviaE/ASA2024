@@ -117,22 +117,22 @@
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
 
-\AtBeginSection[]
-{
-	\begin{frame}
-		\tableofcontents[currentsection, currentsubsection]
-	\end{frame}
-}
+%\AtBeginSection[]
+%{
+%	\begin{frame}
+%		\tableofcontents[currentsection, currentsubsection]
+%	\end{frame}
+%}
+%
+%\AtBeginSubsection[]
+%{
+%	\begin{frame}
+%		\tableofcontents[currentsection, currentsubsection]
+%	\end{frame}
+%}
 
-\AtBeginSubsection[]
-{
-	\begin{frame}
-		\tableofcontents[currentsection, currentsubsection]
-	\end{frame}
-}
 
-
-\title[ILA]{It's how you use the items that counts: \\ An intelligent procedure for item selection in Item Response Theory}
+\title[ILA]{Test length doesn't matter, it's how you use the items that counts:  An intelligent procedure for item selection in Item Response Theory}
 \titlegraphic{%
 	\vspace{-3mm}
 	\includegraphics[width=1.8cm,height=1.8cm,keepaspectratio]{img/unitn.png}%\hspace*{9.75cm}~%
@@ -159,21 +159,24 @@
 \section{Aim}
 \begin{frame}
 	\small
-	Item Response Theory (IRT) for the development of Short Test Form (STF):
+	\emph{Item Response Theory (IRT) for the development of Short Test Form (STF):}
+	\vspace{3mm}
 	
 	\textbf{Typical procedure:}
 Manually inspecting the item characteristics to recreate the desired characteristics of a test 
 	
+	\vspace{1.5mm}
 	\onslide<2->
 \textbf{\textcolor{unipd}{Issue}}
 		
 		Not an automated procedure $\rightarrow$ depends on the subjectivity of the researcher
 
-	
+		\vspace{1.5mm}
 	\onslide<1->
 		\textbf{Automated (new) procedure:}
  A priori definition of latent trait levels of interest on which the STF should be focusing the most
 	
+		\vspace{1.5mm}
 	\onslide<3->
 \textbf{\textcolor{unipd}{Issue}}
 		
@@ -196,15 +199,19 @@ Manually inspecting the item characteristics to recreate the desired characteris
 
 	
 	\centering
-	\onslide<1>
-	\vspace*{1mm}
+	%\vspace*{1mm}
 	
 	$P(x_{pi} = 1|\theta_p, b_i, a_i) = \frac{\exp[a_i(\theta_p - b_i)]}{1 + \exp[a_i(\theta_p - b_i)]}$
 	
-	\vspace{1.5mm}
+%	\vspace{1.5mm}
 	\centering
 	\includegraphics[width=.70\linewidth]{img/ICC-2pl.pdf}
 	
+	\flushleft
+	\footnotesize
+	$\theta_p$: Latent trait level of person $p$\\
+	$b_i$: Location of item $i$ on $\theta$\\
+	$a_i$: Discrimination ability of item $i$
 	
 \end{frame}
 
@@ -391,7 +398,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 \begin{frame}
 	
 \small
-\textbf{100 iterations}:
+\textbf{100 data frames}:
 	
 	\begin{enumerate}
 		\item  Generate an item bank $B$ of $N = 6$ items: 
@@ -485,7 +492,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 
 \end{frame}
 
-\subsection{Conclusions}
+\section{Conclusions}
 
 \begin{frame}
 	
