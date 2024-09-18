@@ -17,7 +17,7 @@ The session will be held on September 19, 2024 in Room 1 (Gini) at 4:00pm. The f
 
 A critical issue within the educational system is the availability of assessment tools capable of accurately describing the skills mastered by an individual and those that are not. Competence-based Knowledge Space Theory (CbKST) is a mathematical theory for the individual assessment of skills that aims to precisely identify the set of skills an individual possesses within a specific domain based on responses given to the items of a test. CbKST is an extension of Knowledge Space Theory (KST), in which the main difference refers to the latent variable considered. While KST focuses on the items an individual is capable of solving, CbKST emphasizes the skills mastered by the individual that allow him to solve these items. CbKST provides the theoretical framework for this work, which presents the development and validation of a tool for the assessment of teamwork and collaborative skills (e.g., effective communication, conflict resolution, action planning, performance monitoring, and feedback) in nursery and primary schoolteachers. The test was designed to offer an attractive user-experience on a web-based platform that simulates real-life situations, such as exchanging messages in a chat with colleagues or viewing students’ work. Data collected on a sample of more than one hundred teachers coming from public and private schools in Italy are analyzed and discussed.
 
-### *An R Package for Adaptive Assessment Utilizing Knowledge Space Theory and Formal Psychological Assessment* 
+### [*An R Package for Adaptive Assessment Utilizing Knowledge Space Theory and Formal Psychological Assessment*](/brancaccio/brancaccio.pdf) 
 
 **Andrea Brancaccio**, Umberto Granziol 
 
