@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  18 SEP 2024 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  18 SEP 2024 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,32 +1233,32 @@ Package pdftex.def Info: img/TIF-2pl.pdf  used on input line 239.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 436.
+(hyperref)                removing `math shift' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 436.
+(hyperref)                removing `subscript' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 436.
+(hyperref)                removing `math shift' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 436.
+(hyperref)                removing `math shift' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 436.
+(hyperref)                removing `subscript' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 436.
+(hyperref)                removing `math shift' on input line 439.
 
 <img/bfp-ila.pdf, id=447, 1011.78pt x 614.295pt>
 File: img/bfp-ila.pdf Graphic file (type pdf)
 <use img/bfp-ila.pdf>
-Package pdftex.def Info: img/bfp-ila.pdf  used on input line 445.
+Package pdftex.def Info: img/bfp-ila.pdf  used on input line 448.
 (pdftex.def)             Requested size: 284.52866pt x 172.75128pt.
 [11
 
@@ -1266,10 +1266,10 @@ Package pdftex.def Info: img/bfp-ila.pdf  used on input line 445.
 <img/rp.pdf, id=498, 1011.78pt x 614.295pt>
 File: img/rp.pdf Graphic file (type pdf)
 <use img/rp.pdf>
-Package pdftex.def Info: img/rp.pdf  used on input line 454.
+Package pdftex.def Info: img/rp.pdf  used on input line 457.
 (pdftex.def)             Requested size: 355.65947pt x 215.93443pt.
 
-Overfull \vbox (6.95314pt too high) detected at line 454
+Overfull \vbox (6.95314pt too high) detected at line 457
  []
 
 [12
@@ -1278,22 +1278,22 @@ Overfull \vbox (6.95314pt too high) detected at line 454
 <img/equalClose.pdf, id=547, 1011.78pt x 614.295pt>
 File: img/equalClose.pdf Graphic file (type pdf)
 <use img/equalClose.pdf>
-Package pdftex.def Info: img/equalClose.pdf  used on input line 493.
+Package pdftex.def Info: img/equalClose.pdf  used on input line 496.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/moreClose.pdf, id=548, 1011.78pt x 614.295pt>
 File: img/moreClose.pdf Graphic file (type pdf)
 <use img/moreClose.pdf>
-Package pdftex.def Info: img/moreClose.pdf  used on input line 493.
+Package pdftex.def Info: img/moreClose.pdf  used on input line 496.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessClose.pdf, id=549, 1011.78pt x 614.295pt>
 File: img/lessClose.pdf Graphic file (type pdf)
 <use img/lessClose.pdf>
-Package pdftex.def Info: img/lessClose.pdf  used on input line 493.
+Package pdftex.def Info: img/lessClose.pdf  used on input line 496.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
 <img/lessFar.pdf, id=550, 1011.78pt x 614.295pt>
 File: img/lessFar.pdf Graphic file (type pdf)
 <use img/lessFar.pdf>
-Package pdftex.def Info: img/lessFar.pdf  used on input line 493.
+Package pdftex.def Info: img/lessFar.pdf  used on input line 496.
 (pdftex.def)             Requested size: 142.26431pt x 86.37564pt.
  [13
 
@@ -1366,7 +1366,7 @@ ublic/amsfonts/cm/cmsy6.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ottae/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/ottae/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ila-asa2024.pdf (14 pages, 1465716 bytes).
+Output written on ila-asa2024.pdf (14 pages, 1465729 bytes).
 PDF statistics:
  787 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
