@@ -38,7 +38,7 @@ Item Response Theory (IRT) provides the ideal framework for generating short tes
 
 ### Federica Morleo 
 
-Fedrica is a PhD Student in Social Sciences, curriculum Applied Psychology at the University of Padova, associated with the National Research Council. Her current research interests are focused on the development of new pedagogical approaches, based on the use of educational robotics and emerging technologies.
+Federica is a PhD Student in Social Sciences, curriculum Applied Psychology at the University of Padova, associated with the National Research Council. Her current research interests are focused on the development of new pedagogical approaches, based on the use of educational robotics and emerging technologies.
 
 ### Andrea Brancaccio
 
