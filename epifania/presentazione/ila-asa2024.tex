@@ -362,7 +362,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 				\draw [arrow] (additem) -- (update);
 				\draw [arrow] (update) -- (check);
 				\draw [arrow] (check) -- node[anchor=east] {Yes} (stop);
-				\draw [arrow] (check.east) -- ++(1,0) -- ++(0,4) -- node[anchor=north] {No} (target.east);
+				\draw [arrow] (check.east) -- ++(1,0) -- ++(0,4) -- node[anchor=north] {No, $k = k +1$} (target.east);
 				
 			\end{tikzpicture}
 		}
@@ -428,7 +428,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 	
 	\begin{itemize}
 		\item $||Q_{\text{BFP}}|| - ||Q_{\text{ILA}}||$ 
-		\item Percentile rank of the distance $\mathbf{TIF}_{\text{BFP}} - \mathbf{TIF}_{\text{ILA}}$   
+		\item Percentile rank (RP) of the distance $\mathbf{TIF}_{\text{BFP}} - \mathbf{TIF}_{\text{ILA}}$   
 	\end{itemize}
 	
 
