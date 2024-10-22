@@ -346,7 +346,8 @@ Manually inspecting the item characteristics to recreate the desired characteris
 			\centering
 			\textbf{ILA Algorithm:} 
 			\scalebox{.5}{
-			\begin{tikzpicture}[node distance=2cm]
+		
+				\begin{tikzpicture}[node distance=2cm]
 				
 				% Nodes
 				\node (start) [startstop] {Start, for $k \geq 1$};
@@ -365,6 +366,7 @@ Manually inspecting the item characteristics to recreate the desired characteris
 				\draw [arrow] (check.east) -- ++(1,0) -- ++(0,4) -- node[anchor=north] {No, $k = k +1$} (target.east);
 				
 			\end{tikzpicture}
+		
 		}
 		
 		\end{column}
